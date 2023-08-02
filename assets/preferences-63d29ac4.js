@@ -1,0 +1,1 @@
+import{a3 as s,a4 as r}from"./index-6cf0da3a.js";const n={async getItem(e){return(await r.get({key:e})).value},async setItem(e,a){await r.set({key:e,value:a})},async removeItem(e){await r.remove({key:e})}};function o(e,a,t={}){return s(e,a,n,t)}export{o as u};
